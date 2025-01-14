@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # Load your trained model
-MODEL_PATH = "model/fish_disease_classifier.h5"
+MODEL_PATH = "fish_disease_classifier.h5"
 try:
     model = load_model(MODEL_PATH)
     print("Model loaded successfully.")
